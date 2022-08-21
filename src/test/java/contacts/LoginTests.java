@@ -35,6 +35,7 @@ public class LoginTests {
                 .post(requestBody)
                 .build();
         Response response = client.newCall(request).execute();
+        Assert.assertFalse(response.isSuccessful());
         Assert.assertEquals(response.code(),400);
     }
 
