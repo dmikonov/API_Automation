@@ -9,7 +9,7 @@ import lombok.ToString;
 @Getter
 @ToString
 @Builder
-public class AuthRequestdto {
+public class AuthRequestDto {
     private String email;
     private String password;
 }

@@ -1,4 +1,4 @@
-package dto;
+package dtosuper;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -9,6 +9,6 @@ import lombok.ToString;
 @Getter
 @ToString
 @Builder
-public class AuthResponsedto {
-    private String token;
+public class ResponseAddRecordDto {
+    private int id;
 }
