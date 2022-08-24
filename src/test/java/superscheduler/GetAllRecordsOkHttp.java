@@ -2,7 +2,6 @@ package superscheduler;
 
 import com.google.gson.Gson;
 import dtosuper.PeriodDto;
-import dtosuper.RecordDto;
 import okhttp3.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
